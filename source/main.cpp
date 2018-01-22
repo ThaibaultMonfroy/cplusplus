@@ -1,4 +1,4 @@
-//  Copyright (c) 2018 Antoine Tran Tan
+//  Copyright (c) 2018 MONFROY DAI
 //
 
 #include <iostream>
@@ -6,6 +6,10 @@
 
 int main()
 {
+	double r1;
+
+	r1 = exol(10.0);
+
     // Affichage sur un terminal
     std::cout << "Hello World!" << std::endl;
 
