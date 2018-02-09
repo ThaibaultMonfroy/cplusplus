@@ -6,30 +6,47 @@
 
 #include <cmath>
 
-double exol(double rayon)
+int essayer_code(unsigned short code);
+
+void exo1(void)
 {
-	double vol;
+	long a = 2, b = 1, c = 0;
 
-	vol = 4.0 / 3.0 * 3.14 * rayon * rayon * rayon;
-
-	return vol;
+	while (a + b > 0)
+	{
+		a = a - 2;
+		b = b + 1;
+		c = c + 1;
+	}
 }
 
-
-void exo2(short a, short b)
+void exo2(void)
 {
-	short y;
+	long n = 3, fac = 1, i = 1;
 
-	y = a < b && !a;
+	if (n > 0)
+		while (i <= n)
+		{
+			fac = fac * i;
+			i = i + 1;
+		}
+	else
+		if (n < 0)
+			fac = 0;
 }
-
-double exo3(double rayon)
+      
+void exo3(void)
 {
-	double aire;
+	int test = 0;
+	unsigned short code = 0;
 
-	aire = ;
+		while (test == 0)
+		{
+		   test = essayer_code(code);
 
-	return aire;
+		   if(test == 0)
+				code = code + 1;
+		}
 }
 
 #endif // MY_HEADER_HPP
